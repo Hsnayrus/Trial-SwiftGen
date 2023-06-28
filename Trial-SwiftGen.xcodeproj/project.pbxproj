@@ -14,6 +14,7 @@
 		2EF156A029AEE34C0090AED0 /* Trial_SwiftGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1569F29AEE34C0090AED0 /* Trial_SwiftGenTests.swift */; };
 		2EF156AA29AEE34C0090AED0 /* Trial_SwiftGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF156A929AEE34C0090AED0 /* Trial_SwiftGenUITests.swift */; };
 		2EF156AC29AEE34C0090AED0 /* Trial_SwiftGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF156AB29AEE34C0090AED0 /* Trial_SwiftGenUITestsLaunchTests.swift */; };
+		47E5DF8F29F7611400F4E897 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 47E5DF8E29F7611400F4E897 /* swiftgen.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2EF156A529AEE34C0090AED0 /* Trial-SwiftGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trial-SwiftGenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF156A929AEE34C0090AED0 /* Trial_SwiftGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trial_SwiftGenUITests.swift; sourceTree = "<group>"; };
 		2EF156AB29AEE34C0090AED0 /* Trial_SwiftGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trial_SwiftGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47E5DF8E29F7611400F4E897 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		2EF1568229AEE34A0090AED0 = {
 			isa = PBXGroup;
 			children = (
+				47E5DF8E29F7611400F4E897 /* swiftgen.yml */,
 				2EF1568D29AEE34A0090AED0 /* Trial-SwiftGen */,
 				2EF1569E29AEE34C0090AED0 /* Trial-SwiftGenTests */,
 				2EF156A829AEE34C0090AED0 /* Trial-SwiftGenUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				2EF1569629AEE34B0090AED0 /* Preview Assets.xcassets in Resources */,
 				2EF1569329AEE34B0090AED0 /* Assets.xcassets in Resources */,
+				47E5DF8F29F7611400F4E897 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
